@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pythonweb9"
+version = "0.1.0"
+description = ""
+authors = ["Sokil Natalia <sokilnatalka@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lxml = "^4.9.2"
+requests = "^2.28.2"
+beautifulsoup4 = "^4.12.2"
+scrapy = "^2.8.0"
+mongoengine = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
